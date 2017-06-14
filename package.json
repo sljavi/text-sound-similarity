@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint ./src ./tests",
-    "build": "webpack --progress",
+    "build": "NODE_ENV=production webpack --progress",
     "test": "NODE_ENV=testing karma start --single-run",
     "test:watch": "NODE_ENV=testing karma start"
   },

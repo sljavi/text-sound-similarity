@@ -1,8 +1,8 @@
-import _ from 'lodash';
+import memoize from 'lodash/memoize';
 import metaphone from 'metaphone';
 import stringSimilarity from 'string-similarity';
 
-export const getTextPhonetic = _.memoize(text => {
+export const getTextPhonetic = memoize(text => {
   const phonetic = metaphone(text);
   if (!phonetic || phonetic === '0') {
     return text;
