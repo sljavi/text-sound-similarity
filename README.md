@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/sljavi/text-sound-similarity.svg?branch=master)](https://travis-ci.org/sljavi/text-sound-similarity) [![Coverage Status](https://coveralls.io/repos/github/sljavi/text-sound-similarity/badge.svg?branch=master)](https://coveralls.io/github/sljavi/text-sound-similarity?branch=master)
+[![Build Status](https://travis-ci.org/sljavi/text-sound-similarity.svg?branch=master)](https://travis-ci.org/sljavi/text-sound-similarity) [![Coverage Status](https://coveralls.io/repos/github/sljavi/text-sound-similarity/badge.svg?branch=master)](https://coveralls.io/github/sljavi/text-sound-similarity?branch=master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b6e2e0e23b1b407b9c2772d39c6185ae)](https://www.codacy.com/app/javi-pzv/text-sound-similarity?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sljavi/text-sound-similarity&amp;utm_campaign=Badge_Grade)
 
 # Text sound similarity
 
