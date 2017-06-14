@@ -18,7 +18,7 @@ export function findBestMatch(textsA, textsB) {
   return textsA.reduce((best, textA) => {
     return textsB.reduce((best, textB) => {
       const rating = compareTwoTexts(textA, textB);
-      if (!best.text || best.rating < rating || (best.rating === rating && textA.length < best.text.length)) {
+      if (!best.text || best.rating < rating || best.rating === rating && textA.length < best.text.length) {
         return {
           text: textA,
           target: textB,

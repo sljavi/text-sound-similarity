@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sljavi/text-sound-similarity.svg?branch=master)](https://travis-ci.org/sljavi/text-sound-similarity) [![Coverage Status](https://coveralls.io/repos/github/sljavi/text-sound-similarity/badge.svg?branch=master)](https://coveralls.io/github/sljavi/text-sound-similarity?branch=master)
+
 # Text sound similarity
 
 Finds degree of similarity between text's phonetics, based on [Metaphone](https://en.wikipedia.org/wiki/Metaphone) and [Dice's Coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient) algorithms.
