@@ -1,7 +1,7 @@
 {
   "name": "text-sound-similarity",
   "description": "JavaScript library useful to find degrees of similarity between text's phonetics",
-  "version": "1.0.9",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "lint": "eslint ./src ./tests",
