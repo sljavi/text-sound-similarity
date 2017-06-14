@@ -31,7 +31,7 @@ Returns the string's phonetic got via [metaphone](https://en.wikipedia.org/wiki/
 
 ##### Returns
 
-`(string)`: Metaphone code of the given word
+`(string)`: Metaphone code of the given text
 
 ##### Examples
 
@@ -43,12 +43,12 @@ getTextPhonetic('My name is Laura'); //MNMSLR
 
 ### compareTwoTexts(text1, text2)
 
-Returns a fraction between 0 and 1, which indicates the degree of similarity between phonemes of the two strings. 0 indicates completely different strings, 1 indicates identical strings
+Returns a fraction between 0 and 1, which indicates the degree of similarity between phonemes of the two texts. 0 indicates completely different texts, 1 indicates identical texts
 
 ##### Arguments
 
-`text1 (string)`: The first text
-`text2 (string)`: The second text
+ 1. `text1 (string)`: The first text
+ 2. `text2 (string)`: The second text
 
 Order does not make a difference.
 
@@ -70,8 +70,8 @@ Compares each string in `mainTexts` against each string in `targetTexts` and ret
 
 ##### Arguments
 
-`mainTexts (Array<string>)`: The string list to match each target string against.
-`targetTexts (Array<string>)`: Each string in this array will be matched against each string in `mainTexts`.
+ 1. `mainTexts (Array<string>)`: The string list to match each target string against.
+ 2. `targetTexts (Array<string>)`: Each string in this array will be matched against each string in `mainTexts`.
 
 ##### Returns
 `(Object)`: An object with the following properties:
