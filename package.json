@@ -7,7 +7,8 @@
     "lint": "eslint ./src ./tests",
     "build": "NODE_ENV=production webpack --progress",
     "test": "NODE_ENV=testing karma start --single-run",
-    "test:watch": "NODE_ENV=testing karma start"
+    "test:watch": "NODE_ENV=testing karma start",
+    "profile": "webpack --json | webpack-bundle-size-analyzer"
   },
   "devDependencies": {
     "babel-core": "6.x.x",
@@ -30,8 +31,11 @@
     "karma-nyan-reporter": "^0.2.5",
     "karma-webpack": "^2.0.3",
     "mocha": "^3.4.2",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-bundle-size-analyzer": "^2.7.0"
   },
+  "main": "dist/index.js",
+  "module": "src/index.js",
   "author": "Javier Perez",
   "bugs": {
     "url": "https://github.com/sljavi/text-sound-similarity/issues"
