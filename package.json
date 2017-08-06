@@ -35,7 +35,6 @@
     "webpack-bundle-size-analyzer": "^2.7.0"
   },
   "main": "dist/index.js",
-  "module": "src/index.js",
   "author": "Javier Perez",
   "bugs": {
     "url": "https://github.com/sljavi/text-sound-similarity/issues"
